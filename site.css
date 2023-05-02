@@ -1,4 +1,5 @@
 #big-table {
+    float:left;
     display: grid;
     width:33.33%;
     grid-gap:15px;
