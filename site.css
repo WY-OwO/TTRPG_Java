@@ -1,6 +1,6 @@
 #big-table {
     display: grid;
-    grid-template-columns: auto auto;
+    width:33.33%;
     grid-gap:15px;
-    border: 5px solid #000000;
+    border: 5px solid #555555;
  }
