@@ -12,3 +12,12 @@ img {
     max-width:150px;
     max-height: auto;
 }
+
+#hp-table {
+    float:left;
+    display: grid;
+    width:25%;
+    grid-gap:15px;
+    border: 2px solid #d3d3d3;
+    height:60px;
+}
