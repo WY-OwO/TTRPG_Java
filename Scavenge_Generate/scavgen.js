@@ -9,7 +9,7 @@ function generate_scavenge(){
         ,"monster":["peaceful (0 monster)", "unsettling (1 monster)", "dangerous (2 monsters)", "infested (3 monsters)"]
       }
     console.log(scavenge_data)
-    for (let i = 0; i < 10; i++){
+    for (let i = 0; i < 2; i++){
       result += "<li>" + grammars.GenerationSimple(scavenge_data) + "</li>";
     }
     result += "</ol>";
