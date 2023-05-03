@@ -10,7 +10,7 @@ function generate_scavenge(){
       }
     console.log(scavenge_data)
     for (let i = 0; i < 10; i++){
-      result += "<li>" + grammars.GenerationSimple(task_data) + "</li>";
+      result += "<li>" + grammars.GenerationSimple(scavenge_data) + "</li>";
     }
     result += "</ol>";
     console.log(result)
