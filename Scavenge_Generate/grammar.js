@@ -4,7 +4,7 @@ let grammars = {
     GenerationSimple : function (gram){
         //console.log(gram)
         g = tracery.createGrammar(gram);
-        return g.flatten("#origin#")
+        return g.flatten("#sentence#")
     }
 
 }
