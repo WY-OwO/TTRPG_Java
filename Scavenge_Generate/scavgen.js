@@ -1,6 +1,6 @@
 function generate_scavenge(){
     result = "<ol>"
-    task_data = {
+    scavenge_data = {
         "sentence":["The scavenger made their way to the city for unknown danger. They discovered two options of the day: <ol>#option1#</ol> <ol>#option2#</ol> What will the scavenger choose?"]
         ,"option1":["#status.a# #location#, which seems to be #monster#."]
         ,"option2":["#status.a# #location#, which seems to be #monster#."]
