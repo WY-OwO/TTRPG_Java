@@ -6,7 +6,7 @@ function generate_task(){
       ,"origin":["The #room# could use some #action#."]
       }
     console.log(task_data)
-    for (let i = 0; i < 10; i++){
+    for (let i = 0; i < 5; i++){
       result += "<li>" + grammars.GenerationSimple(task_data) + "</li>";
     }
     result += "</ol>";
